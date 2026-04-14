@@ -1,0 +1,81 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files (agar collectstatic ishlatsang)
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Node (agar frontend ham bo‘lsa)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / tests
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Migrations (ixtiyoriy)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Secrets
+secrets.json
+
+# Gunicorn
+gunicorn.pid
+
+# Celery
+celerybeat-schedule
+
+# Sentry
+.sentryclirc

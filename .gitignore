@@ -79,3 +79,4 @@ celerybeat-schedule
 
 # Sentry
 .sentryclirc
+.pem

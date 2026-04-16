@@ -51,7 +51,7 @@ async def cmd_start(message: Message, db: Database):
     # Check payment
     if await db.is_paid(user.id):
         await message.answer(
-            "✅ <b>Xush kelibsiz!</b>\nTugmani bosib random son oling!",
+            "✅ <b>Xush kelibsiz!</b>\nTugmani bosib tahminan qancha ekanligini aniqlang!",
             reply_markup=main_menu_kb(),
         )
     else:
